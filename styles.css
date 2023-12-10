@@ -34,6 +34,12 @@
     flex-direction: column;
     justify-content: space-between;
   }
+
+  .d-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
   
   .resume {
     margin: 50px auto;
@@ -66,6 +72,10 @@
     .experiences {
       margin-right: 0;
     }
+
+    .d-flex{
+        flex-direction: column;
+    }
   }
 
   /* Contact info styles */
@@ -89,7 +99,7 @@
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contact-info__block--center {
@@ -244,11 +254,11 @@
   .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
   }
   
   .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 10px;
   }
   
   .additional-info__languages {
